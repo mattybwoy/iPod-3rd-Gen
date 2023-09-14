@@ -1,7 +1,7 @@
 <h1 align="center">
 
-`![Apple](/Documentation/AppleLogo.png)`
-<img src="Documentation/AppleLogo.png" width="25%" height="25%">
+<img src="Documentation/AppleLogo.png" width="15%" height="15%">
+<br>
 iPod 3rd Gen 
 
 </h1>
