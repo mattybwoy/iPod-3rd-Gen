@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3447089E2AB3887A00A159BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447089D2AB3887A00A159BF /* AppDelegate.swift */; };
+		344708A02AB3887A00A159BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447089F2AB3887A00A159BF /* SceneDelegate.swift */; };
+		344708A22AB3887A00A159BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708A12AB3887A00A159BF /* ViewController.swift */; };
+		344708A52AB3887A00A159BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344708A32AB3887A00A159BF /* Main.storyboard */; };
+		344708A72AB3887C00A159BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344708A62AB3887C00A159BF /* Assets.xcassets */; };
+		344708AA2AB3887C00A159BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344708A82AB3887C00A159BF /* LaunchScreen.storyboard */; };
+		344708B52AB3887C00A159BF /* iPod_3rd_GenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708B42AB3887C00A159BF /* iPod_3rd_GenTests.swift */; };
+		344708BF2AB3887C00A159BF /* iPod_3rd_GenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708BE2AB3887C00A159BF /* iPod_3rd_GenUITests.swift */; };
+		344708C12AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		344708B12AB3887C00A159BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344708922AB3887900A159BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344708992AB3887A00A159BF;
+			remoteInfo = "iPod 3rd Gen";
+		};
+		344708BB2AB3887C00A159BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344708922AB3887900A159BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344708992AB3887A00A159BF;
+			remoteInfo = "iPod 3rd Gen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3447089A2AB3887A00A159BF /* iPod 3rd Gen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPod 3rd Gen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447089D2AB3887A00A159BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3447089F2AB3887A00A159BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		344708A12AB3887A00A159BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		344708A42AB3887A00A159BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		344708A62AB3887C00A159BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344708A92AB3887C00A159BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		344708AB2AB3887C00A159BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344708B02AB3887C00A159BF /* iPod 3rd GenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPod 3rd GenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344708B42AB3887C00A159BF /* iPod_3rd_GenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod_3rd_GenTests.swift; sourceTree = "<group>"; };
+		344708BA2AB3887C00A159BF /* iPod 3rd GenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPod 3rd GenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344708BE2AB3887C00A159BF /* iPod_3rd_GenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod_3rd_GenUITests.swift; sourceTree = "<group>"; };
+		344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod_3rd_GenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344708972AB3887A00A159BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344708AD2AB3887C00A159BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344708B72AB3887C00A159BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344708912AB3887900A159BF = {
+			isa = PBXGroup;
+			children = (
+				3447089C2AB3887A00A159BF /* iPod 3rd Gen */,
+				344708B32AB3887C00A159BF /* iPod 3rd GenTests */,
+				344708BD2AB3887C00A159BF /* iPod 3rd GenUITests */,
+				3447089B2AB3887A00A159BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3447089B2AB3887A00A159BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3447089A2AB3887A00A159BF /* iPod 3rd Gen.app */,
+				344708B02AB3887C00A159BF /* iPod 3rd GenTests.xctest */,
+				344708BA2AB3887C00A159BF /* iPod 3rd GenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3447089C2AB3887A00A159BF /* iPod 3rd Gen */ = {
+			isa = PBXGroup;
+			children = (
+				3447089D2AB3887A00A159BF /* AppDelegate.swift */,
+				3447089F2AB3887A00A159BF /* SceneDelegate.swift */,
+				344708A12AB3887A00A159BF /* ViewController.swift */,
+				344708A32AB3887A00A159BF /* Main.storyboard */,
+				344708A62AB3887C00A159BF /* Assets.xcassets */,
+				344708A82AB3887C00A159BF /* LaunchScreen.storyboard */,
+				344708AB2AB3887C00A159BF /* Info.plist */,
+			);
+			path = "iPod 3rd Gen";
+			sourceTree = "<group>";
+		};
+		344708B32AB3887C00A159BF /* iPod 3rd GenTests */ = {
+			isa = PBXGroup;
+			children = (
+				344708B42AB3887C00A159BF /* iPod_3rd_GenTests.swift */,
+			);
+			path = "iPod 3rd GenTests";
+			sourceTree = "<group>";
+		};
+		344708BD2AB3887C00A159BF /* iPod 3rd GenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				344708BE2AB3887C00A159BF /* iPod_3rd_GenUITests.swift */,
+				344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */,
+			);
+			path = "iPod 3rd GenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344708992AB3887A00A159BF /* iPod 3rd Gen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344708C42AB3887C00A159BF /* Build configuration list for PBXNativeTarget "iPod 3rd Gen" */;
+			buildPhases = (
+				344708962AB3887A00A159BF /* Sources */,
+				344708972AB3887A00A159BF /* Frameworks */,
+				344708982AB3887A00A159BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPod 3rd Gen";
+			productName = "iPod 3rd Gen";
+			productReference = 3447089A2AB3887A00A159BF /* iPod 3rd Gen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		344708AF2AB3887C00A159BF /* iPod 3rd GenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344708C72AB3887C00A159BF /* Build configuration list for PBXNativeTarget "iPod 3rd GenTests" */;
+			buildPhases = (
+				344708AC2AB3887C00A159BF /* Sources */,
+				344708AD2AB3887C00A159BF /* Frameworks */,
+				344708AE2AB3887C00A159BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344708B22AB3887C00A159BF /* PBXTargetDependency */,
+			);
+			name = "iPod 3rd GenTests";
+			productName = "iPod 3rd GenTests";
+			productReference = 344708B02AB3887C00A159BF /* iPod 3rd GenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		344708B92AB3887C00A159BF /* iPod 3rd GenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344708CA2AB3887C00A159BF /* Build configuration list for PBXNativeTarget "iPod 3rd GenUITests" */;
+			buildPhases = (
+				344708B62AB3887C00A159BF /* Sources */,
+				344708B72AB3887C00A159BF /* Frameworks */,
+				344708B82AB3887C00A159BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344708BC2AB3887C00A159BF /* PBXTargetDependency */,
+			);
+			name = "iPod 3rd GenUITests";
+			productName = "iPod 3rd GenUITests";
+			productReference = 344708BA2AB3887C00A159BF /* iPod 3rd GenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344708922AB3887900A159BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					344708992AB3887A00A159BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					344708AF2AB3887C00A159BF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 344708992AB3887A00A159BF;
+					};
+					344708B92AB3887C00A159BF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 344708992AB3887A00A159BF;
+					};
+				};
+			};
+			buildConfigurationList = 344708952AB3887900A159BF /* Build configuration list for PBXProject "iPod 3rd Gen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344708912AB3887900A159BF;
+			productRefGroup = 3447089B2AB3887A00A159BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344708992AB3887A00A159BF /* iPod 3rd Gen */,
+				344708AF2AB3887C00A159BF /* iPod 3rd GenTests */,
+				344708B92AB3887C00A159BF /* iPod 3rd GenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344708982AB3887A00A159BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344708AA2AB3887C00A159BF /* LaunchScreen.storyboard in Resources */,
+				344708A72AB3887C00A159BF /* Assets.xcassets in Resources */,
+				344708A52AB3887A00A159BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344708AE2AB3887C00A159BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344708B82AB3887C00A159BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344708962AB3887A00A159BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344708A22AB3887A00A159BF /* ViewController.swift in Sources */,
+				3447089E2AB3887A00A159BF /* AppDelegate.swift in Sources */,
+				344708A02AB3887A00A159BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344708AC2AB3887C00A159BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344708B52AB3887C00A159BF /* iPod_3rd_GenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344708B62AB3887C00A159BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344708BF2AB3887C00A159BF /* iPod_3rd_GenUITests.swift in Sources */,
+				344708C12AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		344708B22AB3887C00A159BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344708992AB3887A00A159BF /* iPod 3rd Gen */;
+			targetProxy = 344708B12AB3887C00A159BF /* PBXContainerItemProxy */;
+		};
+		344708BC2AB3887C00A159BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344708992AB3887A00A159BF /* iPod 3rd Gen */;
+			targetProxy = 344708BB2AB3887C00A159BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		344708A32AB3887A00A159BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344708A42AB3887A00A159BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		344708A82AB3887C00A159BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344708A92AB3887C00A159BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		344708C22AB3887C00A159BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		344708C32AB3887C00A159BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344708C52AB3887C00A159BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6478Y3WC5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iPod 3rd Gen/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewlock.iPod-3rd-Gen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344708C62AB3887C00A159BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6478Y3WC5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iPod 3rd Gen/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewlock.iPod-3rd-Gen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		344708C82AB3887C00A159BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6478Y3WC5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewlock.iPod-3rd-GenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPod 3rd Gen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPod 3rd Gen";
+			};
+			name = Debug;
+		};
+		344708C92AB3887C00A159BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6478Y3WC5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewlock.iPod-3rd-GenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPod 3rd Gen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPod 3rd Gen";
+			};
+			name = Release;
+		};
+		344708CB2AB3887C00A159BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6478Y3WC5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewlock.iPod-3rd-GenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPod 3rd Gen";
+			};
+			name = Debug;
+		};
+		344708CC2AB3887C00A159BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6478Y3WC5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewlock.iPod-3rd-GenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPod 3rd Gen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344708952AB3887900A159BF /* Build configuration list for PBXProject "iPod 3rd Gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344708C22AB3887C00A159BF /* Debug */,
+				344708C32AB3887C00A159BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344708C42AB3887C00A159BF /* Build configuration list for PBXNativeTarget "iPod 3rd Gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344708C52AB3887C00A159BF /* Debug */,
+				344708C62AB3887C00A159BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344708C72AB3887C00A159BF /* Build configuration list for PBXNativeTarget "iPod 3rd GenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344708C82AB3887C00A159BF /* Debug */,
+				344708C92AB3887C00A159BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344708CA2AB3887C00A159BF /* Build configuration list for PBXNativeTarget "iPod 3rd GenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344708CB2AB3887C00A159BF /* Debug */,
+				344708CC2AB3887C00A159BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344708922AB3887900A159BF /* Project object */;
+}
