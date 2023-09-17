@@ -18,6 +18,8 @@
 		344708C12AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */; };
 		344708CF2AB38B9200A159BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 344708CE2AB38B9200A159BF /* README.md */; };
 		344708D22AB38ECC00A159BF /* AppleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 344708D12AB38ECC00A159BF /* AppleLogo.png */; };
+		349B8EE32AB7315000D19333 /* RoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B8EE22AB7315000D19333 /* RoundedRectangle.swift */; };
+		349B8EE62AB74ED100D19333 /* pixChicago.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 349B8EE52AB74ED100D19333 /* pixChicago.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod_3rd_GenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		344708CE2AB38B9200A159BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		344708D12AB38ECC00A159BF /* AppleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleLogo.png; sourceTree = "<group>"; };
+		349B8EE22AB7315000D19333 /* RoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangle.swift; sourceTree = "<group>"; };
+		349B8EE52AB74ED100D19333 /* pixChicago.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixChicago.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		344708912AB3887900A159BF = {
 			isa = PBXGroup;
 			children = (
+				349B8EE52AB74ED100D19333 /* pixChicago.ttf */,
 				344708D02AB38EA800A159BF /* Documentation */,
 				344708CE2AB38B9200A159BF /* README.md */,
 				3447089C2AB3887A00A159BF /* iPod 3rd Gen */,
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				344708A12AB3887A00A159BF /* ViewController.swift */,
+				349B8EE42AB74CF500D19333 /* Views */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -147,6 +153,14 @@
 				344708D12AB38ECC00A159BF /* AppleLogo.png */,
 			);
 			path = Documentation;
+			sourceTree = "<group>";
+		};
+		349B8EE42AB74CF500D19333 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				349B8EE22AB7315000D19333 /* RoundedRectangle.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				344708AA2AB3887C00A159BF /* LaunchScreen.storyboard in Resources */,
+				349B8EE62AB74ED100D19333 /* pixChicago.ttf in Resources */,
 				344708D22AB38ECC00A159BF /* AppleLogo.png in Resources */,
 				344708A72AB3887C00A159BF /* Assets.xcassets in Resources */,
 				344708CF2AB38B9200A159BF /* README.md in Resources */,
@@ -285,6 +300,7 @@
 				344708A22AB3887A00A159BF /* ViewController.swift in Sources */,
 				3447089E2AB3887A00A159BF /* AppDelegate.swift in Sources */,
 				344708A02AB3887A00A159BF /* SceneDelegate.swift in Sources */,
+				349B8EE32AB7315000D19333 /* RoundedRectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
