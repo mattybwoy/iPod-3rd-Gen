@@ -1,16 +1,17 @@
 //
-//  RoundedRectangle.swift
+//  LCDDisplay.swift
 //  iPod 3rd Gen
 //
-//  Created by Matthew Lock on 17/09/2023.
+//  Created by Matthew Lock on 20/09/2023.
 //
 
 import UIKit
 
-class RoundedRectangle: UIView {
+class LCDDisplay: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.backgroundColor = UIColor(named: "Base")
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -27,11 +28,11 @@ class RoundedRectangle: UIView {
         
         let path = UIBezierPath(
             roundedRect: rect,
-            byRoundingCorners: [.topLeft, .topRight],
-            cornerRadii: CGSize(width: 20, height: 20)
+            byRoundingCorners: .allCorners,
+            cornerRadii: CGSize(width: 10, height: 10)
             
         )
-        UIColor(named: "Base")!.setFill()
+        UIColor(named: "StandardBackground")!.setFill()
         path.fill()
         context.addPath(path.cgPath)
         context.closePath()
