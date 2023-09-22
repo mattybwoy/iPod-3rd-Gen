@@ -9,7 +9,8 @@ iPod 3rd Gen
 ## Objective
 Recreating the classic iPod 3rd generation circa 2003 as an app. Utilising MVVM architecture with the ability to play over 1000 songs in your pocket.
 
-## Progress 
+## Progress
+- Main UI complete 
 
 ## Improvements
 
@@ -22,10 +23,3 @@ Recreating the classic iPod 3rd generation circa 2003 as an app. Utilising MVVM 
 ## Screenshots
 
 ## Demo
-
-## Tech Stack
-
-## Simulator version
-
-## Dependencies
-

@@ -18,6 +18,8 @@
 		344708C12AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */; };
 		344708CF2AB38B9200A159BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 344708CE2AB38B9200A159BF /* README.md */; };
 		344708D22AB38ECC00A159BF /* AppleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 344708D12AB38ECC00A159BF /* AppleLogo.png */; };
+		346F2D302ABCC70800795887 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346F2D2F2ABCC70800795887 /* ActionButton.swift */; };
+		346F2D322ABE207900795887 /* ClickWheelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346F2D312ABE207900795887 /* ClickWheelButton.swift */; };
 		349B8EE32AB7315000D19333 /* RoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B8EE22AB7315000D19333 /* RoundedRectangle.swift */; };
 		349B8EE62AB74ED100D19333 /* pixChicago.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 349B8EE52AB74ED100D19333 /* pixChicago.ttf */; };
 		349B8EE82ABA1CDB00D19333 /* ClickWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B8EE72ABA1CDB00D19333 /* ClickWheel.swift */; };
@@ -57,6 +59,8 @@
 		344708C02AB3887C00A159BF /* iPod_3rd_GenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPod_3rd_GenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		344708CE2AB38B9200A159BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		344708D12AB38ECC00A159BF /* AppleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleLogo.png; sourceTree = "<group>"; };
+		346F2D2F2ABCC70800795887 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		346F2D312ABE207900795887 /* ClickWheelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickWheelButton.swift; sourceTree = "<group>"; };
 		349B8EE22AB7315000D19333 /* RoundedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangle.swift; sourceTree = "<group>"; };
 		349B8EE52AB74ED100D19333 /* pixChicago.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixChicago.ttf; sourceTree = "<group>"; };
 		349B8EE72ABA1CDB00D19333 /* ClickWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickWheel.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 				349B8EE22AB7315000D19333 /* RoundedRectangle.swift */,
 				349B8EE72ABA1CDB00D19333 /* ClickWheel.swift */,
 				349B8EE92ABB7AC600D19333 /* LCDDisplay.swift */,
+				346F2D2F2ABCC70800795887 /* ActionButton.swift */,
+				346F2D312ABE207900795887 /* ClickWheelButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,7 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346F2D322ABE207900795887 /* ClickWheelButton.swift in Sources */,
 				344708A22AB3887A00A159BF /* MainViewController.swift in Sources */,
+				346F2D302ABCC70800795887 /* ActionButton.swift in Sources */,
 				3447089E2AB3887A00A159BF /* AppDelegate.swift in Sources */,
 				349B8EEA2ABB7AC600D19333 /* LCDDisplay.swift in Sources */,
 				344708A02AB3887A00A159BF /* SceneDelegate.swift in Sources */,
