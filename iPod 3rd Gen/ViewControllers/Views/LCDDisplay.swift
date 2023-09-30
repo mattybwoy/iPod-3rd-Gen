@@ -30,8 +30,8 @@ class LCDDisplay: UIView {
             roundedRect: rect,
             byRoundingCorners: .allCorners,
             cornerRadii: CGSize(width: 10, height: 10)
-            
         )
+        
         UIColor(named: "StandardBackground")!.setFill()
         path.fill()
         context.addPath(path.cgPath)

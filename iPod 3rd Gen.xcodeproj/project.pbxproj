@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341E41DA2AC8636A00681B63 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341E41D92AC8636A00681B63 /* MainView.swift */; };
+		341E41DC2AC863EE00681B63 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341E41DB2AC863EE00681B63 /* GenericViewController.swift */; };
 		3447089E2AB3887A00A159BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447089D2AB3887A00A159BF /* AppDelegate.swift */; };
 		344708A02AB3887A00A159BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447089F2AB3887A00A159BF /* SceneDelegate.swift */; };
 		344708A22AB3887A00A159BF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344708A12AB3887A00A159BF /* MainViewController.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341E41D92AC8636A00681B63 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		341E41DB2AC863EE00681B63 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 		3447089A2AB3887A00A159BF /* iPod 3rd Gen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPod 3rd Gen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3447089D2AB3887A00A159BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3447089F2AB3887A00A159BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 			children = (
 				344708A12AB3887A00A159BF /* MainViewController.swift */,
 				349B8EE42AB74CF500D19333 /* Views */,
+				341E41DB2AC863EE00681B63 /* GenericViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				349B8EE72ABA1CDB00D19333 /* ClickWheel.swift */,
 				349B8EE92ABB7AC600D19333 /* LCDDisplay.swift */,
 				346F2D312ABE207900795887 /* ClickWheelButton.swift */,
+				341E41D92AC8636A00681B63 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,7 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341E41DC2AC863EE00681B63 /* GenericViewController.swift in Sources */,
 				346F2D322ABE207900795887 /* ClickWheelButton.swift in Sources */,
+				341E41DA2AC8636A00681B63 /* MainView.swift in Sources */,
 				344708A22AB3887A00A159BF /* MainViewController.swift in Sources */,
 				3447089E2AB3887A00A159BF /* AppDelegate.swift in Sources */,
 				349B8EEA2ABB7AC600D19333 /* LCDDisplay.swift in Sources */,
