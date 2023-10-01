@@ -11,7 +11,7 @@ class ClickWheelButton: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor(named: "Shadow")
+        self.backgroundColor = UIColor(named: "Base")
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -21,10 +21,12 @@ class ClickWheelButton: UIView {
     override func draw(_ rect: CGRect) {
         super.draw(rect)
         let path = UIBezierPath(ovalIn: rect)
-        UIColor(named: "Shadow")!.setFill()
-        UIColor.black.setStroke()
+        UIColor(named: "Base")!.setFill()
+        UIColor(named: "Shadow")!.setStroke()
+        path.lineWidth = 3
         path.stroke()
         path.fill()
     }
+    
 
 }

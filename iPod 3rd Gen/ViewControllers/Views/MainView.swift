@@ -47,7 +47,7 @@ class MainView: UIView {
             clickWheelView.bottomAnchor.constraint(equalTo: iPodOutlineView.bottomAnchor, constant: -70),
             clickWheelView.heightAnchor.constraint(equalToConstant: 280)
         ])
-        
+
         addSubview(clickWheelButtonView)
         clickWheelButtonView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
